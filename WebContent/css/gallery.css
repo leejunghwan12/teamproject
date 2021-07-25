@@ -1,0 +1,253 @@
+@charset "UTF-8";
+
+textarea.commentreg {
+
+   width: 749px;
+   height:80px;
+   white-space: pre-wrap;
+
+   }
+   
+
+
+#wonBT button {
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#wonBT button:hover {
+	background-color: RGB(40,181,175);
+
+}
+
+.commentTd{
+	width: 80px;
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: top;
+	
+}
+
+.commentDay{
+	text-align: right;
+	font-size: 8pt;
+	
+}
+
+.comment button{
+background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.comment button:hover {
+	background-color: RGB(40,181,175);
+}
+
+
+  .wonTd1{
+text-align: center;
+
+
+  }
+ .wonTd1:hover {
+	cursor: pointer;
+	color:RGB(40,181,175);
+	font-weight: bold;
+	font-size: 15pt;
+
+}
+.wonTd1 img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+
+
+
+#wonTbl2{
+font-size: 15pt;	
+}
+#wonTbl2 a{
+    text-decoration: none;
+}
+
+#wonTbl2 a:hover {
+   color: RGB(40,181,175);
+    text-decoration: none;
+}
+
+
+
+
+
+.wonTbl3 button {
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.wonTbl3 button:hover {
+	background-color: RGB(40,181,175);
+}
+table.wonTbl3 {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: left;
+  font-weight:bold;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+}
+
+table.wonTbl3 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+
+
+}
+
+#wonTd3{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.wonTbl3 input{
+	width: 300px;
+}
+
+
+
+
+
+
+.wonTbl4 img {
+  width: 500px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+	
+.wonTbl4 button {
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wonTbl4 button:hover {
+	background-color: RGB(40,181,175);
+
+}
+
+table.wonTbl4 {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+}
+
+table.wonTbl4 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+.wonTd4 {
+	font-weight: bold;
+}
+
+
+
+
+.wonTbl5 input{
+	width: 800px;
+}
+
+table.wonTbl5 {
+  border-collapse: separate;
+  border-spacing: 1px;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+}
+
+table.wonTbl5 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+.wonTbl5 button {
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wonTbl5 button:hover {
+	background-color: RGB(40,181,175);
+
+}
+
+.wonTd5{
+		font-weight: bold;
+}
+
+.wonTd51{
+	font-weight: bold;
+	font-size: 15pt;
+	text-align: center;
+}

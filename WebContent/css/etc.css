@@ -1,0 +1,333 @@
+@charset "UTF-8";
+
+#leeEtc1 button {
+   
+  background:RGB(40, 181, 175);
+  color:white;
+  border:none;
+  position:relative;
+  width: 300px;
+  height:100px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+} 
+#leeEtc1 button:hover{
+  background: white;
+  color: RGB(40, 181, 175);
+} 
+#leeEtc1 button:before, #leeEtc1 button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: RGB(40, 181, 175);
+  transition:400ms ease all;
+} 
+#leeEtc1 button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+#leeEtc1 button:hover:before, #leeEtc1 button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+
+
+#leeEtc2 button {
+   
+  background:RGB(255, 126, 64);
+  color:white;
+  border:none;
+  position:relative;
+    width: 300px;
+  height:100px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+#leeEtc2 button:hover{
+  background: white;
+  color: RGB(255, 126, 64);
+}
+#leeEtc2 button:before, #leeEtc2 button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: RGB(255, 126, 64);
+  transition:400ms ease all;
+} 
+#leeEtc2 button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+#leeEtc2 button:hover:before, #leeEtc2 button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+
+.leedutch1{
+   text-align: center;
+   width: 300px;
+   height: 200px;
+   
+}
+
+.leedutch1 button {
+
+   background-color: RGB(255, 206, 183);
+   border: none;
+   color: white;
+   padding: 5px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.leedutch1 button:hover {
+   background-color: RGB(40,181,175);
+   }
+   
+table.leedutch1 {
+    border-collapse: separate;
+  border-spacing: 1px;
+  font-weight:bold;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+   
+}
+
+table.leedutch1 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+
+
+}
+   
+   
+   
+   
+   
+   
+   
+   
+.leedutch2{
+   text-align: center;
+   width: 300px;
+   height: 200px;
+   
+}
+
+
+.leedutch2 button {
+
+   background-color: RGB(255, 206, 183);
+   border: none;
+   color: white;
+   padding: 5px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.leedutch2 button:hover {
+   background-color: RGB(40,181,175);
+   }
+   
+
+table.leedutch2 {
+    border-collapse: separate;
+  border-spacing: 1px;
+  font-weight:bold;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+   
+}
+
+table.leedutch2 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+
+
+}
+
+
+
+
+
+
+
+.leeTravel3 {
+   text-align: center;
+   
+}
+
+
+.leeTravel3 button {
+
+   background-color: RGB(255, 206, 183);
+   border: none;
+   color: white;
+   padding: 5px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.leeTravel3 button:hover {
+   background-color: RGB(40,181,175);
+   }
+   
+   
+
+.leeTravel4 {
+   height: 300px;
+}
+
+
+.leeTravel4 button {
+
+   background-color: RGB(255, 206, 183);
+   border: none;
+   color: white;
+   padding: 5px 5px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.leeTravel4 button:hover {
+   background-color: RGB(40,181,175);
+   }
+   
+   
+   table.leeTravel4 {
+    border-collapse: separate;
+  border-spacing: 1px;
+  font-weight:bold;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 20px 10px;
+   
+}
+
+table.leeTravel4 td {
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+
+
+}
+
+.leeTravel5 {
+text-align: center;   
+}
+
+
+.leeTravelR1 button {
+   
+  background:RGB(40, 181, 175);
+  color:white;
+  border:none;
+  position:relative;
+  width: 300px;
+  height:100px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+} 
+.leeTravelR1 button:hover{
+  background: white;
+  color: RGB(40, 181, 175);
+} 
+.leeTravelR1 button:before, .leeTravelR1 button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: RGB(40, 181, 175);
+  transition:400ms ease all;
+} 
+.leeTravelR1 button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.leeTravelR1 button:hover:before, .leeTravelR1 button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+.leeTravel6 button {
+   background-color: RGB(255, 206, 183);
+   border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.leeTravel6 button:hover {
+   background-color: RGB(40,181,175);
+
+}
+.leeEtcR{
+   text-align: center;
+   font-weight: bold;
+   width: 600px;
+}
+
+.leeEtcR img{
+   width: 300px;
+   height: 200px;
+}

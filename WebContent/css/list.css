@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.leeTbl {
+	width: 800px;
+	text-align: center;
+}
+
+.leeTbl a {
+	text-decoration: none;
+	font-weight: bold;
+	
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.leeTbl a:hover{
+	background-color: RGB(40, 181, 175);
+}
+
+.leeTodo1 {
+	font-weight: bold;
+	font-size: 20pt;
+	width: 400px;
+}
+
+.leeTodo2 button {
+	background-color: RGB(40, 181, 175);
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.leeTodo2 button:hover {
+font-weight: bold;
+font-size: 13px;
+}
+
+.leeDone1 {
+	font-weight: bold;
+	font-size: 20pt;
+	width: 400px;
+}
+
+.leeDone2 button {
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.leeDone2 button:hover {
+font-weight: bold;
+font-size: 13px;
+}
+
+table.leeregTbl {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+	width: 500px;
+}
+
+table.leeregTbl td {
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+.leeregTbl button {
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.leeregTbl button:hover {
+	background-color: RGB(40, 181, 175);
+}
+
+.leeregTd {
+	font-weight: bold;
+
+}
+
+#mTbl1{
+	width: 400px;
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+}
+#mTbl2{
+	width: 400px;
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+}
+
+.leeTd {
+	width: 100px;
+	color: RGB(40, 181, 175);
+	font-weight: bold;
+	
+	
+
+}
+.leeTd2 {
+	width: 100px;
+	color: RGB(255, 126, 64);
+	font-weight: bold;
+	
+
+}

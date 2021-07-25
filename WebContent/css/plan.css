@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+#sjPlan1 a {
+	text-decoration: none;
+}
+
+#sjTbl { /* 달력tbl */
+	margin-top: 20px;
+	width: 1000px;
+	height: 600px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 5px solid RGB(40, 181, 175);
+	border-left: 5px solid RGB(40, 181, 175);
+	border-right: 5px solid RGB(40, 181, 175);
+	border-bottom: 5px solid RGB(40, 181, 175);
+	border: 5px solid RGB(40, 181, 175);
+	table-layout: fixed;
+} 
+
+#sjTb2 {
+	width: 1000px;
+}
+
+.sjTd1 { /* 달력날짜td */
+	height: 80px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 1px solid #8fe7e2;
+	border-left: 1px solid #8fe7e2;
+	border-right: 1px solid #8fe7e2;
+	border-bottom: 1px solid #8fe7e2;
+	text-align: center;
+	font-weight: bold;
+}
+
+.sjTd { /* 달력요일td */
+	height: 80px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 1px solid #8fe7e2;
+	border-left: 1px solid #8fe7e2;
+	border-right: 1px solid #8fe7e2;
+	border-bottom: 1px solid #8fe7e2;
+	font-weight: bold; text-align : right;
+	padding-top: 0px;
+	vertical-align: top;
+	text-align: right;
+}
+
+.sjTd2 { /* 주간td */
+	height: 280px;
+	width: 250px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 5px solid RGB(40, 181, 175);
+	border-left: 1px solid RGB(40, 181, 175);
+	border-right: 1px solid RGB(40, 181, 175);
+	border-bottom: 1px solid RGB(40, 181, 175);
+	font-weight: bold;
+	text-align: left;
+	padding-top: 30px;
+	vertical-align: top;
+}
+
+.sjTd20 { /* 주간td */
+	height: 280px;
+	width: 250px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 5px solid RGB(40, 181, 175);
+	border-left: 5px solid RGB(40, 181, 175);
+	border-right: 1px solid RGB(40, 181, 175);
+	border-bottom: 1px solid RGB(40, 181, 175);
+	font-weight: bold;
+	text-align: left;
+	padding-top: 30px;
+	vertical-align: top;
+}
+
+.sjTd30 { /* 주간td */
+	height: 280px;
+	width: 250px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 1px solid RGB(40, 181, 175);
+	border-left: 5px solid RGB(40, 181, 175);
+	border-right: 1px solid RGB(40, 181, 175);
+	border-bottom: 5px solid RGB(40, 181, 175);
+	font-weight: bold;
+	text-align: left;
+	padding-top: 30px;
+	vertical-align: top;
+}
+
+.sjTd21 { /* 주간td */
+	height: 280px;
+	width: 250px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 5px solid RGB(40, 181, 175);
+	border-left: 1px solid RGB(40, 181, 175);
+	border-right: 5px solid RGB(40, 181, 175);
+	border-bottom: 1px solid RGB(40, 181, 175);
+	font-weight: bold;
+	text-align: left;
+	padding-top: 30px;
+	vertical-align: top;
+}
+
+.sjTd31 { /* 주간td */
+	height: 280px;
+	width: 250px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 1px solid RGB(40, 181, 175);
+	border-left: 1px solid RGB(40, 181, 175);
+	border-right: 5px solid RGB(40, 181, 175);
+	border-bottom: 5px solid RGB(40, 181, 175);
+	font-weight: bold;
+	text-align: left;
+	padding-top: 30px;
+	vertical-align: top;
+}
+
+.sjTd3 { /* 주간td */
+	height: 280px;
+	width: 250px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 1px solid RGB(40, 181, 175);
+	border-left: 1px solid RGB(40, 181, 175);
+	border-right: 1px solid RGB(40, 181, 175);
+	border-bottom: 5px solid RGB(40, 181, 175);
+	font-weight: bold;
+	text-align: left;
+	padding-top: 30px;
+	vertical-align: top;
+}
+
+.sjb1 { /* 버튼 */
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.sjb1:hover {
+	/* background-color: RGB(202, 245, 234); */
+	cursor: pointer;
+	color: RGB(40, 181, 175);
+	font-weight: bold;
+}
+
+#sjM {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#a{
+   
+   text-decoration : none;
+   
+}
+
+.sjReg1	{
+	
+	font-weight: bold;
+	width: 200px;
+	text-align: right;
+
+	
+}
+	
+#sjReg{
+	
+	width: 500px;
+}
+
+.eventD a {
+	background-color: green;
+	
+}
+
+

@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+#kimTb1 {
+	width: 1000px;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 1.5;
+	/* border: 1px solid #ccc; */
+	margin: 20px 10px;
+}
+
+#kimTb2 {
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 2.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+table.kimDet1 {
+	text-align: center;
+	width: 1000px;
+	height: 500px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+.kimR1 button {
+	background-color: RGB(255, 206, 183);
+	border: none;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.kimR1 button:hover {
+	background-color: RGB(40, 181, 175);
+}
+
+#kimReg1 {
+	width: 1000px;
+	height: 200px;
+	text-align: center;
+	table-layout: fixed;
+}
+
+#kimTb4 {
+	width: 1000px;
+	height: 200px;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+#kim_pageTd a {
+   text-decoration: none;
+}
+
+.kimTb5 {
+	width: 1000px;
+	height: 200px;
+	text-align: center;
+	table-layout: fixed;
+	border-collapse: separate;
+	border-spacing: 1px;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+.kimTi1 {
+	font-weight: bold;
+	border-collapse: separate; border-spacing : 1px; line-height : 1.5;
+	margin: 20px 10px;
+	border-spacing: 1px;
+	line-height: 1.5;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+.kimTi2{
+	border-collapse: separate; border-spacing : 1px; line-height : 1.5;
+	margin: 20px 10px;
+	border-spacing: 1px;
+	line-height: 1.5;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+.kimTi3{
+	border-collapse: separate; border-spacing : 1px; line-height : 1.5;
+	margin: 20px 10px;
+	border-spacing: 1px;
+	line-height: 1.5;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+
+.kim_tr1 {
+	text-align: center;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 2px;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+	border-right: 1px solid #ccc;
+}
+
+.kim_tr1:hover {
+	/* background-color: RGB(202, 245, 234); */
+	cursor: pointer;
+	color: RGB(40, 181, 175);
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.kim_tr2 {
+	text-align: center;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: separate;
+	border-spacing: 2px;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+.kim_tr2:hover {
+	/* background-color: RGB(202, 245, 234); */
+	cursor: pointer;
+	color: RGB(40, 181, 175);
+	font-weight: bold;
+}
+
+table.kimDet1 td {
+	padding: 10px;
+	vertical-align: top;
+}
+
+table.kimR1 {
+	width: 1000px;
+	height: 500px;
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: center;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+table.kimR1 td {
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+textarea {
+	resize: none;
+	width: 500px;
+	height: 300px;
+	text-align: center;
+	overflow: visible;
+	overflow-x: hidden;
+	   white-space: pre-wrap;
+}
+
+.kimTb5 input {
+	width: 600px;
+	height: 300px;
+	resize: none;
+	text-align: center;
+	table-layout: fixed;
+}
